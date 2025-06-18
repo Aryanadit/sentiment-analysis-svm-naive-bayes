@@ -1,14 +1,14 @@
 # Sentiment Analysis Using SVM and Naïve Bayes
 
 This project implements sentiment analysis on IMDb movie reviews using two machine learning models:
-- Support Vector Machine (SVM)
-- Naïve Bayes
+- **Support Vector Machine (SVM)**
+- **Naïve Bayes**
 
 The goal is to classify reviews as positive or negative using natural language processing (NLP) techniques.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 - `data/` — Contains the dataset (IMDb reviews ZIP file)
 - `notebooks/` — Jupyter notebook for training and testing
 - `reports/` — Project report and reference paper
@@ -16,7 +16,7 @@ The goal is to classify reviews as positive or negative using natural language p
 
 ---
 
-## Models and Methods
+## ⚙ Models and Methods
 - Linear SVM
 - Multinomial Naïve Bayes
 - Preprocessing:
@@ -27,7 +27,7 @@ The goal is to classify reviews as positive or negative using natural language p
 
 ---
 
-## Results
+## 📈 Results
 - SVM outperformed Naïve Bayes across genres.
 - Example accuracy:
   - SVM (Drama): 87.5%
@@ -35,7 +35,7 @@ The goal is to classify reviews as positive or negative using natural language p
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 1. Clone the repository:
     ```bash
@@ -55,7 +55,7 @@ The goal is to classify reviews as positive or negative using natural language p
 
 ---
 
-## Requirements
+## 💾 Requirements
 - Python 3.x
 - scikit-learn
 - pandas
@@ -65,5 +65,5 @@ The goal is to classify reviews as positive or negative using natural language p
 
 ---
 
-## License
+## 📜 License
 This project is licensed under the MIT License.
